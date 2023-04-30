@@ -1,6 +1,8 @@
-# Django RestFull Api - Library 
+# Django RestFul Api - Library 
 Projeto de uma RESTful API em Python com framework Django Rest Framework.
 
+Obs.:
+- Pode ser necessário renomear o diretório raiz para "Tasks" para executar o projeto.
 
 ## Instalação do Django e do Projeto
 
@@ -41,6 +43,9 @@ Adicionar campo image para Book:
 4. Criar migrations com `python manage.py makemigrations`
 5. Aplicar migrations com `python manage.py migrate` 
 6. Executar a aplicação pelo PyCharm ou com `python manage.py runserver`.
+
+## Recurso
+![UML-Classe-Book](UML-Classe-Book.png)
 
 # Referências
 Udemy - Crie RESTful API com Django Rest Framework - PARA QUALQUER UM: 
